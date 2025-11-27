@@ -57,12 +57,12 @@ python main.py
 ```
 EcoSimCell/
 │
-├── main.py                 
-├── .../
-│   ├── ....py        
+├── ecosimcell.py                 
+│   ├── _init_.py
+│   ├── grid.py
+│   ├── simulation.py 
 │   └── ....py   
-│
-├── results/              
+│              
 ├── requirements.txt
 └── README.md
 ```
