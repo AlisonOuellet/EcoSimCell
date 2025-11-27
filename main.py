@@ -97,6 +97,23 @@ class EcoSimCellWindow(QMainWindow):
         main_layout.addWidget(controls_widget, 1)   # poids 1
         main_layout.addWidget(self.sim_view, 2)     # poids 2 = plus large
 
+        # Type de cellule eucaryote
+        cell_type_layout = QHBoxLayout()
+        cell_type_label = QLabel("Type de cellule :")
+        self.cell_type_combo = QComboBox()
+        self.cell_type_combo.addItems([
+            "Saccharomyces cerevisiae (Levure)",
+            "Candida albicans",
+            "Schizosaccharomyces pombe",
+            "Chlamydomonas reinhardtii (Algue unicellulaire)",
+            "Tetrahymena thermophila (Protozoaire mobile)",
+            "Amoeba proteus"
+        ])
+
+        cell_type_layout.addWidget(cell_type_label)
+        cell_type_layout.addWidget(self.cell_type_combo)
+        controls_layout.addLayout(cell_type_layout)
+
         # Choix du type de nourriture
         food_layout = QHBoxLayout()
         food_label = QLabel("Type de nourriture :")
