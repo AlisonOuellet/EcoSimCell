@@ -1,0 +1,1 @@
+# Défini les règles et comment tout avance dans le temps

@@ -1,0 +1,1 @@
+# Décide comment l'utilisateur voit et lance la simulation (interface + affichage)
