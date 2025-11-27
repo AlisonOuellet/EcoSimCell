@@ -1,16 +1,22 @@
 class World:
     def __init__(self, width, height):
         # stocker la taille
+        self.width = width
+        self.height = height
+
         # stocker la liste des cellules
+        self.cells = []
+
         # stocker la nourriture
-        pass
+        self.food_patches = {}
 
     def add_cell(self, cell):
         # ajouter une cellule au monde
         pass
 
     def remove_cell(self, cell):
-        # retirer une cellule
+        # retirer une cellule du monde
+
         pass
 
     def add_food_patch(self, position, amount):
