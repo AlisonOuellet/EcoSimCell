@@ -1,6 +1,6 @@
 # EcoSimCell
 
-**Protein-Structure-Intelligence 2025:** [https://protein_structure_inteligence](https://protein_structure_inteligence)  
+**EcoSimCell:** [https://EcoSimCell](https://eco_sim_cell)  
 ![Pipeline](https://img.shields.io/badge/pipeline-passed-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
